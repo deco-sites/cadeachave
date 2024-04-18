@@ -101,6 +101,9 @@
     "cta": [],
     "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
   },
+  "Preview /sections/ImageWithParagraph.tsx": {
+    "__resolveType": "site/sections/ImageWithParagraph.tsx"
+  },
   "Preview /sections/hero-1.tsx": {
     "__resolveType": "site/sections/hero-1.tsx"
   },
@@ -110,6 +113,9 @@
   "Preview Sections MyHero": {
     "name": "works!",
     "__resolveType": "site/sections/myHero.tsx"
+  },
+  "Preview site/sections/ImageWithParagraph.tsx": {
+    "__resolveType": "site/sections/ImageWithParagraph.tsx"
   },
   "Serene Coastline": {
     "__resolveType": "site/sections/Theme/Theme.tsx",
@@ -296,6 +302,9 @@
       },
       {
         "__resolveType": "site/sections/Footer.tsx"
+      },
+      {
+        "__resolveType": "Preview site/sections/Theme/Theme.tsx"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
@@ -332,12 +341,45 @@
     "firstByteThresholdMS": false,
     "theme": {
       "__resolveType": "Neutral"
+    },
+    "abTesting": {
+      "replaces": [],
+      "includeScriptsToHead": {
+        "includes": []
+      }
     }
   },
-  "Preview /sections/ImageWithParagraph.tsx": {
-    "__resolveType": "site/sections/ImageWithParagraph.tsx"
-  },
-  "Preview site/sections/ImageWithParagraph.tsx": {
-    "__resolveType": "site/sections/ImageWithParagraph.tsx"
+  "Preview site/sections/Theme/Theme.tsx": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "colorScheme": "any",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.2rem",
+      "--btn-focus-scale": 0.95,
+      "--animation-btn": "0.25s"
+    },
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mode": "light",
+    "mainColors": {
+      "primary": "#1F70B8"
+    },
+    "font": {
+      "fonts": [
+        {
+          "variations": [
+            {
+              "weight": "400"
+            }
+          ],
+          "family": "Poppis"
+        }
+      ]
+    }
   }
 }
