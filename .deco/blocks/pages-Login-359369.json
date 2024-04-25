@@ -1,1 +1,1 @@
-{"name":"Login","path":"/login","sections":[],"__resolveType":"website/pages/Page.tsx"}
+{"name":"Login","path":"/login","sections":[{"__resolveType":"site/sections/Login.tsx","form":{"placeholderName":"CPF:","placeholderPassword":"SENHA:"},"logo":{"alt":"Facens","src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/7338/2170941a-2620-4bd4-a322-6b219d6e976b"},"title":"Login"}],"__resolveType":"website/pages/Page.tsx"}
