@@ -44,6 +44,10 @@
       ]
     }
   },
+  "Login": {
+    "__resolveType": "site/sections/Login.tsx",
+    "title": "teste"
+  },
   "Mobile": {
     "__resolveType": "website/matchers/device.ts",
     "mobile": true
@@ -116,6 +120,39 @@
   },
   "Preview site/sections/ImageWithParagraph.tsx": {
     "__resolveType": "site/sections/ImageWithParagraph.tsx"
+  },
+  "Preview site/sections/Theme/Theme.tsx": {
+    "__resolveType": "site/sections/Theme/Theme.tsx",
+    "colorScheme": "any",
+    "buttonStyle": {
+      "--border-btn": "1px",
+      "--rounded-btn": "0.2rem",
+      "--btn-focus-scale": 0.95,
+      "--animation-btn": "0.25s"
+    },
+    "otherStyles": {
+      "--rounded-box": "1rem",
+      "--rounded-badge": "1.9rem",
+      "--animation-input": "0.2s",
+      "--tab-border": "1px",
+      "--tab-radius": "0.5rem"
+    },
+    "mode": "light",
+    "mainColors": {
+      "primary": "#1F70B8"
+    },
+    "font": {
+      "fonts": [
+        {
+          "variations": [
+            {
+              "weight": "400"
+            }
+          ],
+          "family": "Poppis"
+        }
+      ]
+    }
   },
   "Serene Coastline": {
     "__resolveType": "site/sections/Theme/Theme.tsx",
@@ -263,6 +300,12 @@
     "__resolveType": "decohub/apps/htmx.ts",
     "version": "1.9.11"
   },
+  "pages-Login-359369": {
+    "name": "Login",
+    "path": "/login",
+    "sections": [],
+    "__resolveType": "website/pages/Page.tsx"
+  },
   "pages-testing-a5c1b57018a9": {
     "name": "Home",
     "path": "/",
@@ -347,39 +390,6 @@
       "includeScriptsToHead": {
         "includes": []
       }
-    }
-  },
-  "Preview site/sections/Theme/Theme.tsx": {
-    "__resolveType": "site/sections/Theme/Theme.tsx",
-    "colorScheme": "any",
-    "buttonStyle": {
-      "--border-btn": "1px",
-      "--rounded-btn": "0.2rem",
-      "--btn-focus-scale": 0.95,
-      "--animation-btn": "0.25s"
-    },
-    "otherStyles": {
-      "--rounded-box": "1rem",
-      "--rounded-badge": "1.9rem",
-      "--animation-input": "0.2s",
-      "--tab-border": "1px",
-      "--tab-radius": "0.5rem"
-    },
-    "mode": "light",
-    "mainColors": {
-      "primary": "#1F70B8"
-    },
-    "font": {
-      "fonts": [
-        {
-          "variations": [
-            {
-              "weight": "400"
-            }
-          ],
-          "family": "Poppis"
-        }
-      ]
     }
   }
 }
